@@ -1,6 +1,12 @@
 import { Brain, Satellite, MessageCircle, TrendingUp, Wifi, Camera, Leaf, Globe, Shield, Sparkles, Star } from "lucide-react";
 import { Card, CardContent } from "@/components/ui/card";
 import { Language } from "./LanguageSwitcher";
+import img1 from '../assets/image1.png'
+import img2 from '../assets/image2.png'
+import img3 from '../assets/image3.png'
+import img4 from '../assets/img4.png'
+import img5 from '../assets/image5.png'
+import img6 from '../assets/image6.png'
 
 interface FeaturesSectionProps {
   language: Language;
@@ -18,7 +24,7 @@ const translations = {
         description: "Get personalized crop suggestions based on soil conditions, weather patterns, and market demand.",
         gradient: "from-purple-500 to-pink-500",
         bgGradient: "from-purple-500/10 to-pink-500/10",
-        imageUrl: "https://images.unsplash.com/photo-1574323347407-f5e1ad6d020b?w=400&h=300&fit=crop&crop=center"
+        imageUrl: img1,
       },
       {
         icon: Satellite,
@@ -26,7 +32,7 @@ const translations = {
         description: "Real-time soil pH, moisture, and nutrient analysis using advanced satellite data and IoT sensors.",
         gradient: "from-blue-500 to-cyan-500",
         bgGradient: "from-blue-500/10 to-cyan-500/10",
-        imageUrl: "https://images.unsplash.com/photo-1446776653964-20c1d3a81b06?w=400&h=300&fit=crop&crop=center"
+        imageUrl:img2
       },
       {
         icon: MessageCircle,
@@ -34,7 +40,7 @@ const translations = {
         description: "Voice and text support in Hindi, Tamil, and English for seamless communication.",
         gradient: "from-emerald-500 to-teal-500",
         bgGradient: "from-emerald-500/10 to-teal-500/10",
-        imageUrl: "https://images.unsplash.com/photo-1577563908411-5077b6dc7624?w=400&h=300&fit=crop&crop=center"
+        imageUrl: img3
       },
       {
         icon: TrendingUp,
@@ -42,7 +48,7 @@ const translations = {
         description: "Stay ahead with accurate market price predictions and demand trends for better profits.",
         gradient: "from-orange-500 to-red-500",
         bgGradient: "from-orange-500/10 to-red-500/10",
-        imageUrl: "https://images.unsplash.com/photo-1611224923853-80b023f02d71?w=400&h=300&fit=crop&crop=center"
+        imageUrl: img5
       },
       {
         icon: Wifi,
@@ -50,7 +56,7 @@ const translations = {
         description: "Access critical farming data and recommendations even in low-connectivity rural areas.",
         gradient: "from-indigo-500 to-purple-500",
         bgGradient: "from-indigo-500/10 to-purple-500/10",
-        imageUrl: "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?w=400&h=300&fit=crop&crop=center"
+        imageUrl: img6
       },
       {
         icon: Camera,
@@ -58,32 +64,9 @@ const translations = {
         description: "Instantly identify crop diseases and pests using AI-powered image recognition technology.",
         gradient: "from-green-500 to-emerald-500",
         bgGradient: "from-green-500/10 to-emerald-500/10",
-        imageUrl: "https://images.unsplash.com/photo-1416879595882-3373a0480b5b?w=400&h=300&fit=crop&crop=center"
+        imageUrl: img4
       },
-      {
-        icon: Leaf,
-        title: "Sustainable Practices",
-        description: "Promote eco-friendly farming with suggestions for crop rotation and organic methods.",
-        gradient: "from-teal-500 to-green-500",
-        bgGradient: "from-teal-500/10 to-green-500/10",
-        imageUrl: "https://images.unsplash.com/photo-1500382017468-9049fed747ef?w=400&h=300&fit=crop&crop=center"
-      },
-      {
-        icon: Globe,
-        title: "Weather Integration",
-        description: "Localized weather forecasts and alerts to help you plan farming activities effectively.",
-        gradient: "from-sky-500 to-blue-500",
-        bgGradient: "from-sky-500/10 to-blue-500/10",
-        imageUrl: "https://images.unsplash.com/photo-1504608524841-42fe6f032b4b?w=400&h=300&fit=crop&crop=center"
-      },
-      {
-        icon: Shield,
-        title: "Data Security",
-        description: "Your farming data is encrypted and secure, ensuring privacy and compliance.",
-        gradient: "from-slate-500 to-gray-500",
-        bgGradient: "from-slate-500/10 to-gray-500/10",
-        imageUrl: "https://images.unsplash.com/photo-1563013544-824ae1b704d3?w=400&h=300&fit=crop&crop=center"
-      }
+
     ]
   },
   hi: {
